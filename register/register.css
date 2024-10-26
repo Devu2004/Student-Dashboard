@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2024/03/04/16/44/barberry-8612696_640.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: aqua;
+    width: 350px;
+    height: 500px;
+    padding: 20px;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    bottom: 20px;
+}
+.main-form{
+    padding: 5px;
+    margin: 5px;
+    width: 260px; 
+    display: flex;
+    position: relative;
+
+    
+}
+
+.main-form input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0 30px 0 15px;
+    background: none;
+    border-bottom: 2px solid ;
+    /* font-family: sans-serif; */
+    font-size: 1em;
+    cursor: pointer;
+    color: #fff;
+
+}
+.main-form ::placeholder{
+    color: #fff;
+    font-size: 1em;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    font-weight: 100;
+    font-family: sans-serif;
+    transform: translateY(-50%);
+    transition: 0.5s;
+
+}
+.main-form i{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 1em;
+}
+
+.btn{
+    width: 90%;
+    height: 40px;
+    padding: 8px;
+    margin: 10px 0;
+    margin-left: 4px;
+    margin-top: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    transition: 0.5s;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: white;
+    /* border: 2px solid; */
+    padding: 20px;
+    font-size: 16px;
+}
+.a1{
+    position: absolute;
+    left: 1.5em;
+    top: 27em;
+}
+.a2{
+    position: absolute;
+    right: 1.5em;
+    top: 27em;
+    font-weight: 600;
+}
+.a2:hover{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+

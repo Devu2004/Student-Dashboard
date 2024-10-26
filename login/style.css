@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://media.istockphoto.com/id/1168273814/photo/green-foliage-with-leaves-glistening-with-raindrops.jpg?s=612x612&w=0&k=20&c=ci__6V-8fD7gkiTliauTZ987mAeUkcLP21zlwSIG6uo=);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 300px;
+    height: 400px;
+    background-color: aqua;
+    border-radius: 40px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 15px;
+    color: #fff;
+    
+}
+.main_form{
+    border-bottom: 3px solid black;
+    width: 260px;
+    margin: 20px;
+    position: relative;
+
+}
+.main_form input{
+    border: none;
+    outline: none;
+    background: none;
+    width: 100%;
+    height: 40px;
+    padding: 0px 30px 0 15px;
+    color: white;
+    font-size:  1em;
+    cursor: pointer;
+}
+.main_form ::placeholder{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 1em;
+    transition: 0.5s;
+}
+
+.main_form i{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 1em;
+}
+p{
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+p>a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    
+}
+p>a:hover{
+    text-decoration: underline;
+    font-style: italic;
+}
+.btn{
+   width: 90%;
+   height: 40px;
+   border-radius: 30px;
+   cursor: pointer;
+   border: none;
+   font-size: 20px;
+   text-transform: uppercase;
+   font-weight: 700;
+   margin: 10px 0;
+   transform: 0.5;
+   text-decoration: none;
+   color: #000;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #fff;
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
